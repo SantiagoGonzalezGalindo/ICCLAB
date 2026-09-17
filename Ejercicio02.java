@@ -4,13 +4,12 @@ import java.util.Scanner;
 public class Ejercicio02 {
     public static void main( String[] args){
         Scanner teclado = new Scanner(System.in);
-        String variable;
+        String nombre;
 
-        System.out.println("Introduce tu nombre:");
+        System.out.print("Introduce tu nombre: ");
+        nombre = teclado.nextLine();
 
-        String nombre = teclado.nextLine();
-
-        System.out.print("Tu nombre es:" + nombre);
+        System.out.println("Tu nombre es: " + nombre);
         
         teclado.close();
     }
