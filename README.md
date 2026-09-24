@@ -1,12 +1,12 @@
-#Laboratorio de Introducción a Ciencias de la Computación
+*Laboratorio de Introducción a Ciencias de la Computación*
 
 Repositorio académico de Santiago, estudiante de la Licenciatura en Ciencias de la Computación de la Facultad de Ciencias. 
 
-#Descripción
+*Descripción*
 
  El proposito de este repositorio es reunir las prácticas, los ejercicios y las actividades del laboratorio de Introducción a Ciencias de la Computación. 
 
-#Objetivos
+*Objetivos*
 
  - Desarrollar habilidades de programación y resolver problemas. 
  - Practicar el uso de la línea de comandos de Linux. 
@@ -14,7 +14,7 @@ Repositorio académico de Santiago, estudiante de la Licenciatura en Ciencias de
  - Utilizar Git para llevar un historial de los cambios. 
  - Aplicar los visto en el curso en ejercicios y programas. 
 
-#Requisitos
+*Requisitos*
 
 Para descargar y trabajar con el repositorio se necesita:
 
@@ -23,19 +23,19 @@ Para descargar y trabajar con el repositorio se necesita:
  - Un JDK para las actividades que requieran compilar y ejecutar código Java. 
 
 
-#Para obtener la copia de el repositorio se debe introducir este codigo en una terminal:
+*Para obtener la copia de el repositorio se debe introducir este codigo en una terminal*:
 
  git clone https://github.com/CCLaboratorio/SantiagoGonzalez.git 
  cd SantiagoGonzalez 
 
-#Carpetas y su proposito:                                         
+*Carpetas y su proposito:*
 
- - src/ Código fuente de los programas.                            
+ - src/ Código fuente de los programas.
  - build/ Archivos generados durante la compilación o construcción. 
  - test/ Pruebas para comprobar el funcionamiento de los programas. 
  - docs/ Documentación, diagramas y explicaciones de las actividades. 
 
-#Autor:
+*Autor:*
 
  - Santiago Gonzalez Galindo
  - Licenciatura en Ciencias de la Computación
