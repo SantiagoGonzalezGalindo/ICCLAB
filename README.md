@@ -37,7 +37,7 @@ Carpetas y su proposito:
 
 Autor:
 
-	Santiago
+	Santiago Gonzalez Galindo
 	Licenciatura en Ciencias de la Computación
 	Facultad de Ciencias — Universidad Nacional Autónoma de México
 
