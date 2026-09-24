@@ -26,7 +26,7 @@ Para descargar y trabajar con el repositorio se necesita:
 Para obtener la copia de el repositorio se debe introducir este codigo en una terminal:
 
 	git clone https://github.com/CCLaboratorio/SantiagoGonzalez.git 
-cd SantiagoGonzalez 
+	cd SantiagoGonzalez 
 
 Carpetas y su proposito:                                                   
 
@@ -41,4 +41,4 @@ Autor:
 	Licenciatura en Ciencias de la Computación
 	Facultad de Ciencias — Universidad Nacional Autónoma de México
 
-	Repositorio con fines académicos.
+Repositorio con fines académicos.
