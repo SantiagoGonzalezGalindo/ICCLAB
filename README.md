@@ -28,7 +28,7 @@ Para obtener la copia de el repositorio se debe introducir este codigo en una te
 	git clone https://github.com/CCLaboratorio/SantiagoGonzalez.git 
 	cd SantiagoGonzalez 
 
-Carpetas y su proposito:                                                   
+Carpetas y su proposito:                                         
 
 	src/ Código fuente de los programas.                            
 	build/ Archivos generados durante la compilación o construcción. 
