@@ -23,7 +23,7 @@ Para descargar y trabajar con el repositorio se necesita:
  - Un JDK para las actividades que requieran compilar y ejecutar código Java. 
 
 
-*Para obtener la copia de el repositorio se debe introducir este codigo en una terminal*:
+*Para obtener la copia de el repositorio se debe introducir este codigo en una terminal:*
 
  git clone https://github.com/CCLaboratorio/SantiagoGonzalez.git 
  cd SantiagoGonzalez 
