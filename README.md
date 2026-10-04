@@ -37,46 +37,26 @@ cd SantiagoGonzalez
 ```
 .
 ├── icc/
-│   ├── build/              # archivos .class que se generan al compilar
-│   ├── resources/          # archivos que necesitan los programas
+│   ├── build/                  # archivos .class que se generan al compilar
+│   │   ├── Main.class
+│   │   └── TDPrimitivos.class
+│   ├── resources/              # archivos que necesitan los programas
 │   └── src/
-│       ├── bash/           # scripts de Bash
-│       └── java/           # programas en Java
-│           └── ejercicios/ # ejercicios vistos en el laboratorio
-├── img/                    # imágenes del repositorio
-├── tareas/                 # tareas y actividades del laboratorio
+│       ├── bash/               # scripts de Bash
+│       └── java/               # programas en Java
+│           ├── ejercicios/     # ejercicios vistos en el laboratorio
+│           │   └── TDPrimitivos.java
+│           └── Main.java
 └── README.md
 ```
 
 ## Carpetas y su propósito
 
-- `src/` Código fuente de los programas.
-- `build/` Archivos generados durante la compilación o construcción.
-- `test/` Pruebas para comprobar el funcionamiento de los programas.
-- `docs/` Documentación, diagramas y explicaciones de las actividades.
+- `icc/` Carpeta principal del laboratorio, donde está todo el código.
+- `src/` Código fuente de los programas, separado en `java/` y `bash/`.
+- `build/` Archivos generados durante la compilación.
+- `resources/` Archivos que no son código pero que usan los programas, como imágenes o datos.
 
-Por ahora el repositorio solo tiene `src/` y `build/` (dentro de `icc/`); `test/` y `docs/` se van a agregar cuando haya pruebas o documentación más larga.
-
-## Cómo compilar y ejecutar
-
-Los comandos se escriben desde la carpeta principal del repositorio. `-d icc/build` hace que el `.class` se guarde en `icc/build/` en lugar de quedarse junto al `.java`, y `-cp icc/build` le dice a Java en qué carpeta buscarlo.
-
-```bash
-javac -d icc/build icc/src/java/Main.java
-java -cp icc/build Main
-```
-
-```bash
-javac -d icc/build icc/src/java/ejercicios/TDPrimitivos.java
-java -cp icc/build TDPrimitivos
-```
-
-## Contenido
-
-| Archivo | Qué hace |
-|---|---|
-| `icc/src/java/Main.java` | Pide el nombre del usuario con `Scanner` y lo muestra en pantalla. |
-| `icc/src/java/ejercicios/TDPrimitivos.java` | Muestra los tipos de datos primitivos enteros (`byte`, `short`, `int`, `long`) y suma dos números que le pide al usuario. |
 
 ## Autor
 
@@ -88,8 +68,6 @@ java -cp icc/build TDPrimitivos
 
 - Leonardo Gallo — [@lngallo](https://github.com/lngallo)
 
-## Dudas o errores
 
-Si encuentras un error o tienes alguna duda sobre algún ejercicio, puedes abrir un *issue* en este repositorio.
 
 Repositorio con fines académicos.
