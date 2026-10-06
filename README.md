@@ -47,7 +47,9 @@ cd SantiagoGonzalez
 │           ├── ejercicios/     # ejercicios vistos en el laboratorio
 │           │   └── TDPrimitivos.java
 │           └── Main.java
-└── README.md
+├── README.md
+└── Tareas/                     # tareas escaneadas en PDF
+    └── Tarea_01.pdf
 ```
 
 ## Carpetas y su propósito
