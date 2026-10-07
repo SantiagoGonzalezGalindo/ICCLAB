@@ -1,3 +1,0 @@
-class Estudiante {
-    int edad;
-}
