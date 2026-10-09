@@ -57,7 +57,7 @@ cd SantiagoGonzalez
 - `icc/` Carpeta principal del laboratorio, donde está todo el código.
 - `src/` Código fuente de los programas, separado en `java/` y `bash/`.
 - `build/` Archivos generados durante la compilación.
-- `resources/` Archivos que no son código pero que usan los programas, como imágenes o datos.
+- `resources/` Archivos que no son código, pero que usan los programas, como imágenes o datos.
 - `Tareas/` Tareas de la materia, escaneadas en PDF.
 
 
