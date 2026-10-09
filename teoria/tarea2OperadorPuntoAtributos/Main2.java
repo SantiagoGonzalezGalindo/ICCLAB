@@ -1,20 +1,20 @@
-class Main {
+class Main2 {
     public static void main(String[] args) {
-        Estudiante estudiante1 = new Estudiante();
+        Estudiante2 estudiante1 = new Estudiante2();
         estudiante1.nombre = "Ana López";
         estudiante1.edad = 18;
         estudiante1.genero = 'F';
         estudiante1.noCuenta = "326045812";
         estudiante1.carrera = 'C';
 
-        Estudiante estudiante2 = new Estudiante();
+        Estudiante2 estudiante2 = new Estudiante2();
         estudiante2.nombre = "Luis Hernández";
         estudiante2.edad = 19;
         estudiante2.genero = 'M';
         estudiante2.noCuenta = "325118734";
         estudiante2.carrera = 'M';
 
-        Estudiante estudiante3 = new Estudiante();
+        Estudiante2 estudiante3 = new Estudiante2();
         estudiante3.nombre = "Alex Ramírez";
         estudiante3.edad = 20;
         estudiante3.genero = 'O';
