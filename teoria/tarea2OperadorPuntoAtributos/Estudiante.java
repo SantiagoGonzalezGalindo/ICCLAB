@@ -1,4 +1,4 @@
-class Estudiante2 {
+class Estudiante {
     String nombre;
     int edad;
     char genero;      // M, F, O
