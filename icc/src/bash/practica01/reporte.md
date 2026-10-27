@@ -1,3 +1,5 @@
+![Evidencia de la práctica 1](img/evidenciaP01.jpg)
+
 Alumno: Santiago
 
 Últimas 50 líneas del historial:
