@@ -20,4 +20,7 @@ mkdir -p $carpeta
 touch $carpeta/notas.md
 touch $carpeta/reporte.md
 
+# Guarda el nombre en el reporte
+echo "Alumno: $nombre" > $carpeta/reporte.md
+
 exit 0
