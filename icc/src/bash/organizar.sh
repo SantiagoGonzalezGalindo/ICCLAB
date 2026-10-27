@@ -30,4 +30,11 @@ echo "La estructura se creó correctamente en $carpeta"
 echo "Contenido del reporte:"
 cat $carpeta/reporte.md
 
+# Guarda en el reporte las últimas 50 líneas del historial
+echo "" >> $carpeta/reporte.md
+echo "Últimas 50 líneas del historial:" >> $carpeta/reporte.md
+echo '```' >> $carpeta/reporte.md
+tail -n 50 ~/.bash_history >> $carpeta/reporte.md
+echo '```' >> $carpeta/reporte.md
+
 exit 0
