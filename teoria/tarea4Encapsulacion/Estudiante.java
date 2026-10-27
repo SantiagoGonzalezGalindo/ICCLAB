@@ -13,4 +13,9 @@ class Estudiante {
         System.out.println("Carrera: " + carrera);
         System.out.println();
     }
+
+    // Calcula la edad restando el año de nacimiento al año actual (2026)
+    int calcularEdad() {
+        return 2026 - anioNacimiento;
+    }
 }
