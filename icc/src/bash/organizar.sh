@@ -23,4 +23,11 @@ touch $carpeta/reporte.md
 # Guarda el nombre en el reporte
 echo "Alumno: $nombre" > $carpeta/reporte.md
 
+# Avisa que se creó la estructura
+echo "La estructura se creó correctamente en $carpeta"
+
+# Muestra el contenido del reporte
+echo "Contenido del reporte:"
+cat $carpeta/reporte.md
+
 exit 0
