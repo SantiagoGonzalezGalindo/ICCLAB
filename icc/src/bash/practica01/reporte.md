@@ -1,4 +1,4 @@
-![Evidencia de la práctica 1](img/evidenciaP01.jpg)
+![Evidencia de la práctica 1](../../../../img/evidenciaP01.jpg)
 
 Alumno: Santiago
 
