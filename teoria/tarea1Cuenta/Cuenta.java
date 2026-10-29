@@ -1,3 +1,14 @@
+/*
+    Santiago Gonzalez Galindo
+    sdgoga1209@ciencias.unam.mx
+    Fecha: 29 de Octubre, 2026
+
+    Esta clase representa una cuenta bancaria con su
+    saldo, tipo, cliente y fecha de apertura, y permite
+    depositar y retirar dinero.
+
+*/
+
 class Cuenta {
     private float saldo;
     private char tipo;              // A = Ahorro, C = Cheques, N = Nómina

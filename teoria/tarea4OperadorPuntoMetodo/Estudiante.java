@@ -1,3 +1,15 @@
+/*
+    Santiago Gonzalez Galindo
+    sdgoga1209@ciencias.unam.mx
+    Fecha: 26 de Octubre, 2026
+
+    Esta clase representa a un estudiante de la Facultad
+    de Ciencias con atributos privados, sus setters y
+    getters, y métodos para imprimir su información y
+    calcular su edad.
+
+*/
+
 class Estudiante {
     private String nombre;
     private int anioNac;
