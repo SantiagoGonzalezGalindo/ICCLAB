@@ -1,11 +1,11 @@
 class Estudiante {
-    String nombre;
-    int anioNac;
-    char genero;      // M, F, O
-    String noCuenta;
-    char carrera;     // C = Computación, M = Matemáticas, F = Física, A = Actuaría, B = Biología
+    private String nombre;
+    private int anioNac;
+    private char carrera;     // C = Computación, M = Matemáticas, F = Física, A = Actuaría, B = Biología
+    private String noCuenta;
+    private char genero;      // M, F, O
 
-    void imprimirInfo() {
+    public void imprimirInfo() {
         System.out.println("Nombre: " + nombre);
         System.out.println("Año de nacimiento: " + anioNac);
         System.out.println("Género: " + genero);
@@ -14,49 +14,49 @@ class Estudiante {
     }
 
     // Calcula la edad restando el año de nacimiento al año actual (2026)
-    int calcularEdad() {
+    public int calcularEdad() {
         return 2026 - anioNac;
     }
 
     // setters
-    void setNombre(String nombre) {
+    public void setNombre(String nombre) {
         this.nombre = nombre;
     }
 
-    void setAnioNac(int anioNac) {
+    public void setAnioNac(int anioNac) {
         this.anioNac = anioNac;
     }
 
-    void setCarrera(char carrera) {
+    public void setCarrera(char carrera) {
         this.carrera = carrera;
     }
 
-    void setNoCuenta(String noCuenta) {
+    public void setNoCuenta(String noCuenta) {
         this.noCuenta = noCuenta;
     }
 
-    void setGenero(char genero) {
+    public void setGenero(char genero) {
         this.genero = genero;
     }
 
     // getters
-    String getNombre() {
+    public String getNombre() {
         return nombre;
     }
 
-    int getAnioNac() {
+    public int getAnioNac() {
         return anioNac;
     }
 
-    char getCarrera() {
+    public char getCarrera() {
         return carrera;
     }
 
-    String getNoCuenta() {
+    public String getNoCuenta() {
         return noCuenta;
     }
 
-    char getGenero() {
+    public char getGenero() {
         return genero;
     }
 }
