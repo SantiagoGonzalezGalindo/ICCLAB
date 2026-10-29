@@ -20,4 +20,14 @@ class Cuenta {
             return "Retiro exitoso, tu saldo es " + saldo;
         }
     }
+
+    // Solo deposita si la cantidad es positiva
+    public String depositar(float cantidad) {
+        if (cantidad <= 0) {
+            return "La cantidad a depositar debe ser mayor a 0";
+        } else {
+            saldo = saldo + cantidad;
+            return "Depósito exitoso, tu saldo es " + saldo;
+        }
+    }
 }
