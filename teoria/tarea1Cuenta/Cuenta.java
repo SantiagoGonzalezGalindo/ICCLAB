@@ -49,19 +49,19 @@ class Cuenta {
     }
 
     // setters
-    public void setSaldo(float saldo) {
-        this.saldo = saldo;
+    public void setSaldo(float s) {
+        saldo = s;
     }
 
-    public void setTipo(char tipo) {
-        this.tipo = tipo;
+    public void setTipo(char t) {
+        tipo = t;
     }
 
-    public void setCliente(String cliente) {
-        this.cliente = cliente;
+    public void setCliente(String c) {
+        cliente = c;
     }
 
-    public void setFechaApertura(String fechaApertura) {
-        this.fechaApertura = fechaApertura;
+    public void setFechaApertura(String f) {
+        fechaApertura = f;
     }
 }
