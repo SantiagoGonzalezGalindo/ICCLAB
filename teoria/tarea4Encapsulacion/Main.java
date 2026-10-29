@@ -23,17 +23,17 @@ class Main {
 
         System.out.println("Estudiante 1");
         estudiante1.imprimirInfo();
-        System.out.println("Edad: " + estudiante1.calcularEdad());
+        estudiante1.calcularEdad(2026);
         System.out.println();
 
         System.out.println("Estudiante 2");
         estudiante2.imprimirInfo();
-        System.out.println("Edad: " + estudiante2.calcularEdad());
+        estudiante2.calcularEdad(2026);
         System.out.println();
 
         System.out.println("Estudiante 3");
         estudiante3.imprimirInfo();
-        System.out.println("Edad: " + estudiante3.calcularEdad());
+        estudiante3.calcularEdad(2026);
         System.out.println();
     }
 }
