@@ -19,24 +19,24 @@ class Estudiante {
     }
 
     // setters
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public void setNombre(String n) {
+        nombre = n;
     }
 
-    public void setAnioNac(int anioNac) {
-        this.anioNac = anioNac;
+    public void setAnioNac(int a) {
+        anioNac = a;
     }
 
-    public void setCarrera(char carrera) {
-        this.carrera = carrera;
+    public void setCarrera(char c) {
+        carrera = c;
     }
 
-    public void setNoCuenta(String noCuenta) {
-        this.noCuenta = noCuenta;
+    public void setNoCuenta(String nc) {
+        noCuenta = nc;
     }
 
-    public void setGenero(char genero) {
-        this.genero = genero;
+    public void setGenero(char g) {
+        genero = g;
     }
 
     // getters
