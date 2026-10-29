@@ -38,4 +38,25 @@ class Estudiante {
     void setGenero(char genero) {
         this.genero = genero;
     }
+
+    // getters
+    String getNombre() {
+        return nombre;
+    }
+
+    int getAnioNac() {
+        return anioNac;
+    }
+
+    char getCarrera() {
+        return carrera;
+    }
+
+    String getNoCuenta() {
+        return noCuenta;
+    }
+
+    char getGenero() {
+        return genero;
+    }
 }
