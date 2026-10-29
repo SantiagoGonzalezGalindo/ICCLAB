@@ -47,4 +47,21 @@ class Cuenta {
     public String getFechaApertura() {
         return fechaApertura;
     }
+
+    // setters
+    public void setSaldo(float saldo) {
+        this.saldo = saldo;
+    }
+
+    public void setTipo(char tipo) {
+        this.tipo = tipo;
+    }
+
+    public void setCliente(String cliente) {
+        this.cliente = cliente;
+    }
+
+    public void setFechaApertura(String fechaApertura) {
+        this.fechaApertura = fechaApertura;
+    }
 }
