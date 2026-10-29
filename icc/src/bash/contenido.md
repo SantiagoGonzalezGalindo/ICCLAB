@@ -6,3 +6,5 @@ Scripts de Bash del laboratorio de Introducción a Ciencias de la Computación.
 - organizar.sh: prepara la carpeta practica01 con notas.md y reporte.md.
 - notas.sh: punto extra, agrega notas a notas.md en la carpeta principal del usuario.
 - practica01/: carpeta que crea organizar.sh, con el reporte y la evidencia.
+- menu.sh: menú de tres opciones que saluda al usuario por su nombre.
+- buscador.sh: busca archivos o carpetas por nombre exacto o por coincidencia.
