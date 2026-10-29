@@ -17,4 +17,25 @@ class Estudiante {
     int calcularEdad() {
         return 2026 - anioNac;
     }
+
+    // setters
+    void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    void setAnioNac(int anioNac) {
+        this.anioNac = anioNac;
+    }
+
+    void setCarrera(char carrera) {
+        this.carrera = carrera;
+    }
+
+    void setNoCuenta(String noCuenta) {
+        this.noCuenta = noCuenta;
+    }
+
+    void setGenero(char genero) {
+        this.genero = genero;
+    }
 }
