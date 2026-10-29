@@ -30,4 +30,21 @@ class Cuenta {
             return "Depósito exitoso, tu saldo es " + saldo;
         }
     }
+
+    // getters
+    public float getSaldo() {
+        return saldo;
+    }
+
+    public char getTipo() {
+        return tipo;
+    }
+
+    public String getCliente() {
+        return cliente;
+    }
+
+    public String getFechaApertura() {
+        return fechaApertura;
+    }
 }
