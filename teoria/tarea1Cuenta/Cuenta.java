@@ -10,4 +10,14 @@ class Cuenta {
         System.out.println("Cliente: " + cliente);
         System.out.println("Fecha de apertura: " + fechaApertura);
     }
+
+    // Solo retira si hay saldo suficiente
+    public String retirar(float cantidad) {
+        if (cantidad > saldo) {
+            return "Saldo insuficiente, solo tienes " + saldo;
+        } else {
+            saldo = saldo - cantidad;
+            return "Retiro exitoso, tu saldo es " + saldo;
+        }
+    }
 }
