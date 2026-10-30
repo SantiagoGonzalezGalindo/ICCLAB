@@ -1,25 +1,10 @@
 class Main {
     public static void main(String[] args) {
-        Estudiante estudiante1 = new Estudiante();
-        estudiante1.setNombre("Ana López");
-        estudiante1.setAnioNac(2008);
-        estudiante1.setGenero('F');
-        estudiante1.setNoCuenta("326045812");
-        estudiante1.setCarrera('C');
+        Estudiante estudiante1 = new Estudiante("Ana López", 2008, 'C', "326045812", 'F');
 
-        Estudiante estudiante2 = new Estudiante();
-        estudiante2.setNombre("Luis Hernández");
-        estudiante2.setAnioNac(2007);
-        estudiante2.setGenero('M');
-        estudiante2.setNoCuenta("325118734");
-        estudiante2.setCarrera('M');
+        Estudiante estudiante2 = new Estudiante("Luis Hernández", 2007, 'M', "325118734", 'M');
 
-        Estudiante estudiante3 = new Estudiante();
-        estudiante3.setNombre("Alex Ramírez");
-        estudiante3.setAnioNac(2006);
-        estudiante3.setGenero('O');
-        estudiante3.setNoCuenta("324097251");
-        estudiante3.setCarrera('F');
+        Estudiante estudiante3 = new Estudiante("Alex Ramírez", 2006, 'F', "324097251", 'O');
 
         System.out.println("Estudiante 1");
         estudiante1.imprimirInfo();
