@@ -1,14 +1,9 @@
 /*
-    Santiago Gonzalez Galindo
-    sdgoga1209@ciencias.unam.mx
-    Fecha: 26 de Octubre, 2026
-
-    Esta clase representa a un estudiante de la Facultad
-    de Ciencias con atributos privados, sus setters y
-    getters, y métodos para imprimir su información y
-    calcular su edad.
-
-*/
+ * Nombre:      Estudiante.java
+ * Autor:       Santiago Gonzalez Galindo
+ * Descripción: Clase que representa a un estudiante con setters y getters.
+ * Fecha:       26/10/2026
+ */
 
 class Estudiante {
     private String nombre;

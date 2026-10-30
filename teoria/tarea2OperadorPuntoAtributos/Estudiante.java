@@ -1,13 +1,9 @@
 /*
-    Santiago Gonzalez Galindo
-    sdgoga1209@ciencias.unam.mx
-    Fecha: 7 de Octubre, 2026
-
-    Esta clase representa a un estudiante de la Facultad
-    de Ciencias con su nombre, edad, género, número de
-    cuenta y carrera.
-
-*/
+ * Nombre:      Estudiante.java
+ * Autor:       Santiago Gonzalez Galindo
+ * Descripción: Clase que representa a un estudiante con sus datos.
+ * Fecha:       07/10/2026
+ */
 
 class Estudiante {
     String nombre;

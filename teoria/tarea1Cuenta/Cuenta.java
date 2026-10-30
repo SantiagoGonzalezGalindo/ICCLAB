@@ -1,13 +1,9 @@
 /*
-    Santiago Gonzalez Galindo
-    sdgoga1209@ciencias.unam.mx
-    Fecha: 29 de Octubre, 2026
-
-    Esta clase representa una cuenta bancaria con su
-    saldo, tipo, cliente y fecha de apertura, y permite
-    depositar y retirar dinero.
-
-*/
+ * Nombre:      Cuenta.java
+ * Autor:       Santiago Gonzalez Galindo
+ * Descripción: Clase que representa una cuenta bancaria.
+ * Fecha:       29/10/2026
+ */
 
 class Cuenta {
     private float saldo;
