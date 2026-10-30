@@ -12,6 +12,15 @@ class Estudiante {
     private String noCuenta;
     private char genero;      // M, F, O
 
+    // constructor
+    public Estudiante(String n, int a, char c, String nc, char g) {
+        nombre = n;
+        anioNac = a;
+        carrera = c;
+        noCuenta = nc;
+        genero = g;
+    }
+
     public void imprimirInfo() {
         System.out.println("Nombre: " + nombre);
         System.out.println("Año de nacimiento: " + anioNac);
