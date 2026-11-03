@@ -5,7 +5,7 @@
 # Descripción: Busca archivos o carpetas por nombre exacto o por coincidencia
 #              dentro del directorio que indique el usuario.
 # Fecha:       29/10/2026
-# Uso:         ./src/bash/buscador.sh
+# Uso:         ./src/bash/ejercicios/buscador.sh
 
 tipo=0
 modo=0

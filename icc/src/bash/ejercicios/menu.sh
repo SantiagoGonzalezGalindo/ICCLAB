@@ -4,7 +4,7 @@
 # Autor:       Santiago Gonzalez Galindo
 # Descripción: Pide el nombre del usuario y muestra un menú de tres opciones.
 # Fecha:       29/10/2026
-# Uso:         ./src/bash/menu.sh
+# Uso:         ./src/bash/ejercicios/menu.sh
 
 nombre=""
 opcion=0
