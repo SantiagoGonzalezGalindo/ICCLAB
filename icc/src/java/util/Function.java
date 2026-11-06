@@ -204,7 +204,21 @@ public class Function {
      * @return the greatest common divisor
      */
     public int gcd(int a, int b) {
-        return 0;
+        // El mcd siempre es positivo, por eso se vuelven positivos los dos numeros
+        if (a < 0) {
+            a = -a;
+        }
+        if (b < 0) {
+            b = -b;
+        }
+        // Se divide uno entre otro y se sigue con el residuo hasta que sea 0
+        int residuo;
+        while (b != 0) {
+            residuo = a % b;
+            a = b;
+            b = residuo;
+        }
+        return a;
     }
 
     /**
