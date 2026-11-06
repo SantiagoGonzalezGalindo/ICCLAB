@@ -83,7 +83,11 @@ public class Function {
      * @return the smaller integer
      */
     public int min(int a, int b) {
-        return 0;
+        if (a < b) {
+            return a;
+        } else {
+            return b;
+        }
     }
 
     /**
