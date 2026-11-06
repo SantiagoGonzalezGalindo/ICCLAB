@@ -229,7 +229,31 @@ public class Function {
      * @return the number of occurrences of the digit
      */
     public int countDigit(int number, int digit) {
-        return 0;
+        // Un digito solo puede ir del 0 al 9
+        if (digit < 0 || digit > 9) {
+            return 0;
+        }
+        // El 0 tiene un digito: el 0
+        if (number == 0) {
+            if (digit == 0) {
+                return 1;
+            } else {
+                return 0;
+            }
+        }
+        int contador = 0;
+        int ultimo;
+        while (number != 0) {
+            ultimo = number % 10;
+            if (ultimo < 0) {
+                ultimo = -ultimo;
+            }
+            if (ultimo == digit) {
+                contador++;
+            }
+            number = number / 10;
+        }
+        return contador;
     }
 
     /**
