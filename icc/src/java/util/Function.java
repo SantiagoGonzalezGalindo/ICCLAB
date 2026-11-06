@@ -160,7 +160,16 @@ public class Function {
      * @return true if the number is a palindrome; false otherwise
      */
     public boolean isPalindrome(int number) {
-        return false;
+        // Un negativo no es palindromo: -121 al reves se lee 121-
+        if (number < 0) {
+            return false;
+        }
+        // Es palindromo si se lee igual al derecho que al reves
+        if (number == reverseNumber(number)) {
+            return true;
+        } else {
+            return false;
+        }
     }
 
     /**
