@@ -68,7 +68,11 @@ public class Function {
      * @return the greater integer
      */
     public int max(int a, int b) {
-        return 0;
+        if (a > b) {
+            return a;
+        } else {
+            return b;
+        }
     }
 
     /**
