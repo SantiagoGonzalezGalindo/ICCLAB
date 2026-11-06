@@ -11,6 +11,14 @@ class Cuenta {
     private String cliente;
     private String fechaApertura;   // mm/dd/aaaa
 
+    // constructor
+    public Cuenta(float s, char t, String c, String f) {
+        saldo = s;
+        tipo = t;
+        cliente = c;
+        fechaApertura = f;
+    }
+
     public void imprimirInfo() {
         System.out.println("Saldo: " + saldo);
         System.out.println("Tipo: " + tipo);
