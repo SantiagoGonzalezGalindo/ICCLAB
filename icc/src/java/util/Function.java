@@ -283,6 +283,16 @@ public class Function {
      * @return true if the array is sorted; false otherwise
      */
     public boolean isSorted(int[] numbers) {
-        return false;
+        // Un arreglo vacio o de un elemento ya esta ordenado
+        if (numbers == null || numbers.length < 2) {
+            return true;
+        }
+        // Si algun elemento es mayor que el siguiente, no esta ordenado
+        for (int i = 0; i < numbers.length - 1; i++) {
+            if (numbers[i] > numbers[i + 1]) {
+                return false;
+            }
+        }
+        return true;
     }
 }
