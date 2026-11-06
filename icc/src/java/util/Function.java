@@ -16,7 +16,12 @@ public class Function {
      * @return true if the number is even; false otherwise
      */
     public boolean isEven(int number) {
-        return false;
+        // Es par si al dividirlo entre 2 no sobra nada
+        if (number % 2 == 0) {
+            return true;
+        } else {
+            return false;
+        }
     }
 
     /**
