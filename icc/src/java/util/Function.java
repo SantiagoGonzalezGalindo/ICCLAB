@@ -116,7 +116,19 @@ public class Function {
      * @return the sum of the digits
      */
     public int sumDigits(int number) {
-        return 0;
+        int suma = 0;
+        int digito;
+        // Se toma el ultimo digito con % 10 y se quita con / 10
+        while (number != 0) {
+            digito = number % 10;
+            // Si el numero es negativo el residuo sale negativo
+            if (digito < 0) {
+                digito = -digito;
+            }
+            suma = suma + digito;
+            number = number / 10;
+        }
+        return suma;
     }
 
     /**
