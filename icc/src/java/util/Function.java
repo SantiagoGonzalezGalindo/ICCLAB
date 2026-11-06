@@ -31,7 +31,12 @@ public class Function {
      * @return true if the number is odd; false otherwise
      */
     public boolean isOdd(int number) {
-        return false;
+        // Es impar si no es par
+        if (isEven(number)) {
+            return false;
+        } else {
+            return true;
+        }
     }
 
     /**
