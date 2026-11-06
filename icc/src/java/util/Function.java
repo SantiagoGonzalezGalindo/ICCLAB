@@ -180,7 +180,20 @@ public class Function {
      * @return the result of raising the base to the exponent
      */
     public double power(double base, int exponent) {
-        return 0;
+        double resultado = 1;
+        // Se usa long para poder volver positivo cualquier exponente
+        long veces = exponent;
+        if (veces < 0) {
+            veces = -veces;
+        }
+        for (long i = 1; i <= veces; i++) {
+            resultado = resultado * base;
+        }
+        // Con exponente negativo el resultado es 1 entre la potencia
+        if (exponent < 0) {
+            resultado = 1 / resultado;
+        }
+        return resultado;
     }
 
     /**
