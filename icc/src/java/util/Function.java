@@ -97,7 +97,16 @@ public class Function {
      * @return the factorial of the given number
      */
     public long factorial(int number) {
-        return 0;
+        // No hay factorial de negativos, por eso se regresa 0
+        if (number < 0) {
+            return 0;
+        }
+        // El factorial de 0 es 1 y para los demas se multiplica de 2 hasta el numero
+        long resultado = 1;
+        for (int i = 2; i <= number; i++) {
+            resultado = resultado * i;
+        }
+        return resultado;
     }
 
     /**
