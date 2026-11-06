@@ -4,7 +4,7 @@ package util;
  *
  * Provides basic mathematical operations and numerical methods.
  *
- * @author
+ * @author Santiago Gonzalez Galindo
  * @version 1.0
  */
 public class Function {
