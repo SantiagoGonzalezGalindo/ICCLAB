@@ -46,7 +46,18 @@ public class Function {
      * @return true if the number is prime; false otherwise
      */
     public boolean isPrime(int number) {
-        return false;
+        // El 0, el 1 y los negativos no son primos
+        if (number < 2) {
+            return false;
+        }
+        // Basta con probar divisores hasta la raiz del numero
+        // (i <= number / i es lo mismo que i * i <= number)
+        for (int i = 2; i <= number / i; i++) {
+            if (number % i == 0) {
+                return false;
+            }
+        }
+        return true;
     }
 
     /**
