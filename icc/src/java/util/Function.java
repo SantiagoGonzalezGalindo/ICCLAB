@@ -263,7 +263,16 @@ public class Function {
      * @return the arithmetic mean of the array elements
      */
     public double average(int[] numbers) {
-        return 0;
+        // Sin elementos no hay promedio, se regresa 0
+        if (numbers == null || numbers.length == 0) {
+            return 0;
+        }
+        // Se suma en long por si la suma ya no cabe en un int
+        long suma = 0;
+        for (int i = 0; i < numbers.length; i++) {
+            suma = suma + numbers[i];
+        }
+        return (double) suma / numbers.length;
     }
 
     /**
