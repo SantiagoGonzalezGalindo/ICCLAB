@@ -37,19 +37,50 @@ cd SantiagoGonzalez
 ```
 .
 ├── icc/
-│   ├── build/                  # archivos .class que se generan al compilar
+│   ├── build/                      # archivos .class que se generan al compilar
+│   │   ├── ejercicios/
+│   │   │   └── Menu.class
+│   │   ├── util/
+│   │   │   └── Function.class
 │   │   ├── Main.class
 │   │   └── TDPrimitivos.class
-│   ├── resources/              # archivos que necesitan los programas
+│   ├── resources/                  # archivos que necesitan los programas
 │   └── src/
-│       ├── bash/               # scripts de Bash
-│       └── java/               # programas en Java
-│           ├── ejercicios/     # ejercicios vistos en el laboratorio
+│       ├── bash/                   # scripts de Bash
+│       │   ├── ejercicios/         # ejercicios vistos en el laboratorio
+│       │   │   ├── buscador.sh
+│       │   │   ├── cuerpo_basico.sh
+│       │   │   └── menu.sh
+│       │   ├── practica01/         # reporte y notas de la practica 1
+│       │   │   ├── notas.md
+│       │   │   └── reporte.md
+│       │   ├── contenido.md
+│       │   ├── notas.sh
+│       │   ├── organizar.sh
+│       │   ├── respaldo.md
+│       │   └── script.sh
+│       └── java/                   # programas en Java
+│           ├── ejercicios/         # ejercicios vistos en el laboratorio
+│           │   ├── Menu.java
 │           │   └── TDPrimitivos.java
+│           ├── util/               # practica 2
+│           │   └── Function.java
 │           └── Main.java
-├── README.md
-└── Tareas/                     # tareas escaneadas en PDF
-    └── Tarea_01.pdf
+├── img/                            # imagenes de las practicas y diagramas de flujo
+│   ├── diagrama_buscador.png
+│   ├── diagrama_menu.png
+│   └── evidenciaP01.jpg
+├── tareas/                         # tareas escaneadas en PDF
+│   └── Tarea_01.pdf
+├── teoria/                         # tareas de la clase de teoria
+│   ├── sistemaHotel/               # proyecto personal
+│   ├── tarea1OperadorPuntoAtributo/
+│   ├── tarea2OperadorPuntoAtributos/
+│   ├── tarea3OperadorPuntoMetodo/
+│   ├── tarea4Encapsulacion/
+│   ├── tarea5MetodoConstructor/
+│   └── tareaExamen1/               # ensayo de la tarea examen 1
+└── README.md
 ```
 
 ## Carpetas y su propósito
@@ -58,7 +89,9 @@ cd SantiagoGonzalez
 - `src/` Código fuente de los programas, separado en `java/` y `bash/`.
 - `build/` Archivos generados durante la compilación.
 - `resources/` Archivos que no son código, pero que usan los programas, como imágenes o datos.
-- `Tareas/` Tareas de la materia, escaneadas en PDF.
+- `img/` Imagenes de las practicas, como las evidencias y los diagramas de flujo.
+- `tareas/` Tareas de la materia, escaneadas en PDF.
+- `teoria/` Tareas de la clase de teoria, cada una en su carpeta con sus archivos .java y .class; tambien estan el proyecto personal (`sistemaHotel/`) y la tarea examen.
 
 
 ## Autor
