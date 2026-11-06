@@ -138,7 +138,19 @@ public class Function {
      * @return the integer with its digits reversed
      */
     public int reverseNumber(int number) {
-        return 0;
+        // Se usa long para saber si el numero volteado ya no cabe en un int
+        long reverso = 0;
+        // Se toma el ultimo digito y se va agregando al final del reverso
+        // (si el numero es negativo, el reverso tambien sale negativo)
+        while (number != 0) {
+            reverso = reverso * 10 + number % 10;
+            number = number / 10;
+        }
+        // Si el numero volteado ya no cabe en un int, se regresa 0
+        if (reverso > 2147483647 || reverso < -2147483648) {
+            return 0;
+        }
+        return (int) reverso;
     }
 
     /**
